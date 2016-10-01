@@ -1,0 +1,60 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#calcOutput
+{
+	
+	background-color : rgba(76, 175, 80, 0.8);
+	height:75px;
+	width :250px;
+	border-top-left-radius :2em;
+	border-top-right-radius :2em;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top:20px;
+	padding-top:20px;
+	padding-left: 40px;
+	padding-right: : 20px;
+	text-align: left;
+	font-size: 20px;
+	overflow : hidden;
+
+	
+}
+#calculator
+{
+	background-color : rgba(76, 175, 80, 0.3);
+	
+	
+	width :250px;
+	border-bottom-left-radius :2em;
+	border-bottom-right-radius :2em;
+	margin-right: auto;
+	margin-left:auto;
+	padding-bottom : 30px;
+}
+#steps
+{
+padding-left : 50px;
+font-szie :2em;	
+}
+a
+{
+margin : 5px;
+width :2.6vw;
+height : 2.6vw;	
+padding-right: 0px !important;
+padding-left: 0px !important;
+
+}
+.bigButton
+{
+width:78px;	
+	
+}
