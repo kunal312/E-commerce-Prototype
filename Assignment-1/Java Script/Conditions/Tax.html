@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Calculate Tax on Your Salary</title>
+<style>
+label{display:block;}
+</style>
+<script type="text/javascript" src="taxcal.js">
+</script>
+</head>
+<h1>Calculate Tax on Your Salary</h1>
+<body>
+<label>Salary</label>
+<input type="text" id="salary" name="salary" ><br>
+<label>State</label>
+<input list="states" name="state" id="state">
+	<datalist id="states">
+	<option value="CA">California</option>
+	<option value="TX">Texas</option>
+	</datalist>
+<input type="button" id="findtax" value="Find Tax" onclick="caltax()">
+<label>Tax Percentage on Salary</label>
+<input type="text" id="taxpercentage" name="taxpercentage" ><br>
+<label>Salary after Tax Deduction</label>
+<input type="text" id="fsalary" name="fsalary" ><br>
+</body>
+</html>

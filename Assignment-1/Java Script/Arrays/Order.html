@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Order Items-Array</title>
+ <script type="text/javascript" src="Array.js"></script>
+</head>
+<style>
+#addtocart{
+display:none
+}
+#removeitems{
+display:none
+}
+#placeorder
+{
+display:none
+}
+
+</style>
+<h1>Place your Order </h1>
+<body>
+<div id=selectitems>
+Select the Items:
+  <input  type="checkbox" name="items[]" id="bread" value="Bread">Bread
+  <input  type="checkbox" name="items[]" id="cereals" value="cereals">Cereals
+  <input  type="checkbox" name="items[]" id="drinks" value="drinks">Drinks
+  <input  type="checkbox" name="items[]" id="bottled water" value="bottled water">Bottled Water
+  <input  type="checkbox" name="items[]" id=coffee value="coffee">coffee<br>
+  <input type="button" id="orderitems" value="Proceed" onclick="getItems()"><br>
+  <br>
+  </div>
+ 
+  <div id="numberofitems"></div>
+  <br>
+  
+  <div id="output"></div><br>
+  <input type="button" id="addtocart" value="Add to Cart" onclick="addtocart()"><br>
+  <br>
+  <div id="cart"></div>
+  <br>
+ <br>
+ <input type="button" id="removeitems" value="Remove items from Cart" onclick="removecart()"><br>
+ <br>
+ <div id="remove1"></div><br>
+ <div id="rem"></div>
+ <div id="rem2"></div>
+ <br>
+ <input type="button" id="placeorder" value="Place Order" onclick="placeorder()"><br>
+ <div id="place"></div>
+  
+  
+ 
+</body>
+</html>
