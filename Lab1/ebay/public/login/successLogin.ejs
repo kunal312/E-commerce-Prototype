@@ -1,0 +1,30 @@
+ <nav class="navbar navbar-default customnavbar">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav customnavbar-nav">
+      <li class="dropdown" style="margin-left: 70px">
+        <a id="hi" class="dropdown-toggle" data-toggle="dropdown" href="" style="font-size: 12px">Hi <strong>{{useremail}}
+        </strong>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a ui-sref="successLogin.profile">Profile</a></li>
+          <li><a ui-sref="successLogin.logout">Logout</a></li>
+        </ul>
+        </li>
+        <li class="dropdown"  style="margin-left: 800px">
+        <a  id="ebay" class="dropdown-toggle" data-toggle="dropdown" href="" style="font-size: 12px ">My eBay
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a ui-sref="successLogin.wobid" ui-sref-active="active">Buy</a></li>
+          <li><a ui-sref="successLogin.bid">Bid</a></li>
+          <li><a ui-sref="successLogin.sell">Selling</a></li>
+          <li><a ui-sref="successLogin.orderhistory">Order History</a></li>
+        </ul>
+         <li><a ui-sref="successLogin.cart">
+            <span class="glyphicon glyphicon-shopping-cart" style="font-size: 18px;"></span>
+          </a></li> 
+    </li>
+    </ul>
+  </div>
+  
+  <div ui-view class="successview"></div>
+</nav>

@@ -48,7 +48,60 @@ function putData(callback,sqlQuery1){
 	});
 	console.log("\nConnection closed..");
 	connection.end();
-}		
+}	
+
+function getItems(callback,sqlQuery2)
+{
+
+	console.log("\nSQL Query::"+sqlQuery2);
+	var connection=getConnection();
+
+	connection.query(sqlQuery2, function(err, rows, fields) {
+		if(err){
+			console.log("ERROR: " + err.message);
+		}
+		else 
+		{	// return err or result
+			console.log("DB Results:"+rows);
+			callback(err, rows);
+		}
+		
+	});
+	console.log("\nConnection closed..");
+	connection.end();
+
+}
+
+function putItems(callback,sqlQuery3)
+{
+
+	console.log("\nSQL Query::"+sqlQuery3);
+	var connection=getConnection();
+
+	connection.query(sqlQuery3, function(err, rows, fields) {
+		if(err){
+			console.log("ERROR: " + err.message);
+		}
+		else 
+		{	// return err or result
+			console.log("DB Results:"+rows);
+			callback(err, rows);
+		}
+		
+	});
+	console.log("\nConnection closed..");
+	connection.end();
+
+}
+
+
+
+
+
+
+
 
 exports.fetchData=fetchData;
 exports.putData=putData;
+exports.getItems=getItems;
+exports.putItems=putItems;

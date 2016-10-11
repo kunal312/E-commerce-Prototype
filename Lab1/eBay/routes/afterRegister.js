@@ -18,6 +18,12 @@ router.post('/afterRegister',function(req,res,next)
 	var lastname = req.body.inputLastName;
 	console.log("inputLastName:" + lastname);
 
+if( req.param("inputUsername")!== undefined && req.param("inputPassword")!== undefined &&
+
+	req.param("inputFirstName")!== undefined) 
+
+{
+
 
 //var getUser= "select * from users where emailid= "+req.param("inputUsername");
 var getUser = "SELECT * FROM users WHERE `emailid` = '"+req.body.inputUsername+"'";
@@ -33,7 +39,7 @@ mysql.fetchData(function(err,results){
 				console.log("user already exists.");
 				
 				json_responses = {"statusCode" : 401 };
-					console.log(json_responses);
+				console.log(json_responses);
 				res.send(json_responses);
 			
 			}
@@ -68,6 +74,14 @@ mysql.fetchData(function(err,results){
 		}  
 	},getUser);
 
+}
+
+else{
+
+			json_responses = {"statusCode" : 403 };
+					console.log(json_responses);
+					res.send(json_responses);
+}
 
 
 

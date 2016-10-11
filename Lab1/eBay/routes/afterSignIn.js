@@ -9,13 +9,21 @@ router.post('/afterSignIn',function(req,res,next)
 {
 
 	console.log("reached after sign in checking if user exists");
+														
 
-//function afterSignIn(req,res)
-//{
-																
-	// check user already exists
+	console.log("Username " +req.param("inputUsername"));
+	console.log("Pwd " +req.param("inputPassword"));
+
+	
+
+	if((req.param("inputUsername")!== undefined && req.param("inputPassword")!== undefined)) 
+	
+
+		{
 	var getUser="select * from users where emailid='"+req.param("inputUsername")+"' and password='" + req.param("inputPassword") +"'";
 	console.log("Query is:"+getUser);
+
+	var username = req.param("inputUsername");
 	
 	mysql.fetchData(function(err,results){
 		if(err){
@@ -24,25 +32,18 @@ router.post('/afterSignIn',function(req,res,next)
 		else 
 		{
 			if(results.length > 0){
+
 				console.log("valid Login");
+				req.session.username = username;
+				console.log("Session initialized");
+				email = req.param("inputUsername");
+				console.log("Email :" +email);
+			
+				json_responses = {"statusCode" : 200,"useremail":email } ;
+				console.log(json_responses);
+				res.send(json_responses);
 
-					 res.render('successLogin', { data: results } , function(err, result) {
-					 	
-			        // render on success
-			        if (!err) {
-			            res.end(result);
-			        }
-			        // render or error
-			        else {
-			            res.end('An error occurred');
-			            console.log(err);
-			        }
-			    });
-
-
-
-			   
-			}
+			   }
 			else {    
 				
 				console.log("Invalid Login");
@@ -55,8 +56,15 @@ router.post('/afterSignIn',function(req,res,next)
 			}
 		}  
 	},getUser);
-//}
 
+		}
+
+		else
+		{
+				json_responses = {"statusCode" : 403 };
+					console.log(json_responses);
+					res.send(json_responses);
+		}
 
 
 

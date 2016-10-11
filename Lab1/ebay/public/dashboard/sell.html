@@ -1,0 +1,65 @@
+<div>
+<img src="/stylesheets/eBay.png" class="ebay-image-buy">
+ </div>
+
+
+
+
+<div class="container" >
+	   		<div >
+			<h2>Sell With Us</h2>
+		    </div>
+        <div class="classbox">
+        <form class="form-horizontal">
+
+        <div class="selldescribe">
+           <h4>Describe your item</h4> 
+        </div>
+
+		<div class="form-group">
+        <label for="itemName" class="control-label modifiedcontrol-label col-xs-2">Title</label>
+       	<div class="col-xs-10">
+         <input type="text" class="form-control sellform" id="itemName" ng-model="itemName" placeholder="Enter Product Name(max 80 characters)">
+         </div>
+         <br>
+       
+       	<label for="itemDescription" class="control-label modifiedcontrol-label col-xs-2">Description</label>
+       	<div class="col-xs-10">
+        <textarea class="form-control sellform" id="itemDescription" ng-model="itemDescription" placeholder="Item Description"></textarea>
+        </div>
+        <br>
+        <br>
+         <label for="itemPrice" class="control-label modifiedcontrol-label col-xs-2">Price($)</label>
+       	<div class="col-xs-10">
+         <input type="text" class="form-control sellform" id="itemPrice" ng-model="itemPrice" placeholder="Enter Price">
+         </div>
+         <br>
+         <label for="sellerName" class="control-label modifiedcontrol-label  col-xs-2">Seller Name</label>
+       	<div class="col-xs-10">
+         <input type="text" class="form-control sellform" id="sellerName" ng-model="sellerName" placeholder="Seller Information">
+         </div>
+         <br>
+         <label for="itemqty" class="control-label  modifiedcontrol-label col-xs-2">Quantity</label>
+       	<div class="col-xs-10">
+         <input type="text" class="form-control sellform" id="itemqty" ng-model="itemqty" placeholder="Number of Available Units">
+         </div>
+         <br>
+        <label for="sellerlocation" class="control-label modifiedcontrol-label col-xs-2">Seller location</label>
+       	<div class="col-xs-10">
+         <input type="text" class="form-control sellform" id="sellerlocation" ng-model="sellerlocation" placeholder="your location">
+         <br>
+         <div class="col-xs-8 box sellbutton">
+        <button type="submit" class="btn btn-primary " ng-model="sellItem" ng-click="sellItem(itemName,itemDescription,itemPrice,sellerName,itemqty,sellerlocation)" style="min-width: 120px">List it</button>
+        <span class="glyphicon glyphicon-ok itemlist" aria-hidden="true" ng-show="status"></span>{{msg}}
+        
+         </div>
+         </div>
+         </div>
+         </form>
+         </div>
+
+</div>
+
+
+
+
