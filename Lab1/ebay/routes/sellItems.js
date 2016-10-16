@@ -2,6 +2,7 @@ var ejs = require("ejs");
 var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
+var logger = require('./winston');
 
 router.post('/sellItems',function(req,res,next)
 
@@ -25,8 +26,9 @@ router.post('/sellItems',function(req,res,next)
 
 
 var updateitems = 
-'INSERT INTO items (emailid, itemname, itemdescription,itemprice, itemseller,itemqty,itemlocation)VALUES ("' +req.session.username + '", "' + itemName + '", "' + itemDescription + '", "' + itemPrice + '",  "'+ sellerName +'","'+ itemqty +'","'+ sellerlocation +'")';
+'INSERT INTO items (emailid, itemname, itemdescription,itemprice, itemseller,itemqty,itemlocation,totalqty)VALUES ("' +req.session.username + '", "' + itemName + '", "' + itemDescription + '", "' + itemPrice + '",  "'+ sellerName +'","'+ itemqty +'","'+ sellerlocation +'","'+ itemqty +'")';
 				
+logger.eventLogger.debug("Event:Sell,New Fixed Price Item added by User:"+req.session.username);
 
 console.log("Query " + updateitems);
 

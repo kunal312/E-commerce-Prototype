@@ -13,6 +13,12 @@
     "express": "~4.13.4",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0",
-     "client-sessions":"*"
+     "client-sessions":"*",
+     "node-cron":"*",
+     "node-cron-job":"*",
+     "cron":"*",
+     "bcrypt-nodejs":"*",
+     "winston":"*"
+
   }
 }

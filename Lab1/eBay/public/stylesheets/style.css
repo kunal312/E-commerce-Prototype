@@ -190,7 +190,7 @@ label {
    width:185px !important;
    height:65px !important;
    margin-top: 40px;
-   margin-left: 0px;
+   margin-left: 30px;
  }
 
 .navColor{
@@ -267,14 +267,15 @@ label {
 
 }
 .customnavbar-nav{
-background-color: #F5FFFA;
+   background-color: black
+ 
 }
 .customnavbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
 #ebay{
-  color :black;
+  color :white;
 }
 #hi{
-  color :black;
+  color :white;
 }
 
 /* Styling for ebay Image on Bid Page */
@@ -329,7 +330,13 @@ color: green;
 font-size: 18px;
 
 }
+.customautcion{
+    margin-left: 180;
+}
 
+
+
+ 
 /* Styling for View Cart Page
 .table>tbody>tr>td, .table>tfoot>tr>td{
     vertical-align: middle;
@@ -370,3 +377,5 @@ font-size: 18px;
 
 
 */
+
+/*Styling For Profile Page*/

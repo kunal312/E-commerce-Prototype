@@ -1,7 +1,7 @@
 var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
-
+var logger = require('./winston');
 
 router.post('/viewCart',function(req,res,next)
 
@@ -14,8 +14,11 @@ router.post('/viewCart',function(req,res,next)
 			{
 		
 		
-		var getItems="select * from cartitems where emailid='"+email+"'";
+		//var getItems="select * from cartitems where emailid='"+email+"'";
 
+		var getItems="select * from cartitems where itemqty>0 and emailid='"+email+"'";
+
+logger.eventLogger.debug("Event:ViewCart :Fetching Items for " +req.session.username);
 
 		mysql.getItems(function(err,results){
 		
@@ -48,6 +51,183 @@ router.post('/viewCart',function(req,res,next)
 			}
 		}  
 	},getItems);
+
+
+
+
+
+//Checking if Bid Expires:
+
+var currentdate = new Date();
+
+var getexpirydate= "select  * from items where bid=1 ";
+
+mysql.getItems(function(err,results){
+		
+
+		if(err){
+			throw err;
+		}
+		else 
+		{
+			if(results.length > 0){
+
+				console.log("Date Fetched");
+
+
+		for (var i=0;i<results.length;i++)
+		
+		{
+
+			console.log("Current Date:" + currentdate);
+			var expirydate = new Date(results[i].bidexpirydate);
+			console.log("Exp Date:" + expirydate);
+			var tdiff = (expirydate.getTime() - currentdate.getTime());
+			var days = (tdiff / (1000 * 3600 * 24));
+ 			console.log("Remaining Days : "+days);
+ 				if(days<0)
+ 	{
+
+logger.bidLogger.debug("Bid Won by user:"+results[i].biduser+", Highest Bid amount:"+results[i].bidprice+" for item id:"+results[i].itemid );
+
+
+ 			console.log("Bid Won");
+ 
+ var updatecart = 
+
+'INSERT INTO cartitems (emailid, itemqty, itemname,itemprice,itemdescription,itemseller,itemlocation,itemid) VALUES ("' + results[i].biduser + '", "1", "' + results[i].itemname + '", "' + results[i].bidprice + '","' + results[i].itemdescription + '","' + results[i].itemseller + '","' + results[i].itemlocation + '","' + results[i].itemid + '")';
+
+	mysql.getItems(function(err,results1){
+		
+
+		if(err){
+			throw err;
+		}
+		else 
+		{
+			console.log(results1);
+			
+			if(results1.affectedRows >0)
+			{
+
+				console.log("Sent to Cart");
+				
+									}
+			else {    
+				
+				console.log("Cannot be added to cart");
+
+				}
+
+
+		}  
+	},updatecart);
+
+
+	//removing it from biding list
+	var deletebid = 
+	"update items set bid=0 where itemid='"+results[i].itemid+"'";
+
+
+	mysql.getItems(function(err,results2){
+		
+
+		if(err){
+			throw err;
+		}
+		else 
+		{
+			console.log(results2);
+			if(results.length !=undefined){
+
+				console.log("Removed from Bidding ");
+
+				
+				
+
+			   }
+			else {    
+				
+				console.log("Cannot be Removed from bidding ");
+
+					
+				
+				
+			}
+		}  
+	},deletebid);
+
+
+
+				
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+ 				else
+
+ 				{
+ 					console.log("Bid Time is Remaining");
+ 				}
+
+
+
+		}
+
+				
+				
+				
+
+			   }
+			else {    
+				
+				console.log("Date cannot be Fetched");
+
+					
+				
+				
+			}
+		}  
+	},getexpirydate);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

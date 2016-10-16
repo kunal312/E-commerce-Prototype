@@ -5,6 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('client-sessions');
+var cron = require('node-cron');
+var winston = require('winston');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -16,6 +18,16 @@ var showItems = require('./routes/showItems');
 var sellItems = require('./routes/sellItems');
 var addtoCart = require('./routes/addtoCart');
 var viewCart = require('./routes/viewCart');
+var removefromCart = require('./routes/removefromCart');
+var checkout = require('./routes/checkout');
+var paymentValidate = require('./routes/paymentValidate');
+var bidItems = require('./routes/bidItems');
+var showbidItems = require('./routes/showbidItems');
+var bidupdate = require('./routes/bidupdate');
+var updateProfile = require('./routes/updateProfile');
+var profilechanges = require('./routes/updateProfile');
+var fetchOrders = require('./routes/fetchOrders');
+var sellinghistory = require('./routes/sellinghistory');
 
 var app = express();
 
@@ -36,7 +48,22 @@ app.use(session({
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
-app.use(logger('dev'));
+//for generating winston logs
+
+/*
+winston.add( winston.transports.File, 
+  {
+    filename: './bid.log',
+    timestamp: true,
+    level: 'debug',
+    json: true,
+    eol: 'n'
+    
+  }
+)
+*/
+
+//app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -51,7 +78,16 @@ app.post('/showItems' ,showItems);
 app.post('/sellItems',sellItems);
 app.post('/addtoCart',addtoCart);
 app.post('/viewCart' ,viewCart);
-
+app.post('/removefromCart',removefromCart);
+app.post('/checkout',checkout);
+app.post('/paymentValidate',paymentValidate);
+app.post('/bidItems',bidItems);
+app.post('/showbidItems',showbidItems);
+app.post('/bidupdate',bidupdate);
+app.post('/updateProfile',updateProfile);
+app.post('/profilechanges',profilechanges);
+app.post('/fetchOrders',fetchOrders);
+app.post('/sellinghistory',sellinghistory);
 
 
 

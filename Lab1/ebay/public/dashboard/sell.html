@@ -49,8 +49,12 @@
          <input type="text" class="form-control sellform" id="sellerlocation" ng-model="sellerlocation" placeholder="your location">
          <br>
          <div class="col-xs-8 box sellbutton">
-        <button type="submit" class="btn btn-primary " ng-model="sellItem" ng-click="sellItem(itemName,itemDescription,itemPrice,sellerName,itemqty,sellerlocation)" style="min-width: 120px">List it</button>
+        <button type="submit" class="btn btn-primary " ng-model="sellItem" ng-click="sellItem(itemName,itemDescription,itemPrice,sellerName,itemqty,sellerlocation)" style="min-width: 120px">Fixed Price</button>
+       
+         <button  type="submit" class="btn btn-warning customautcion"  ng-model="bidItem" ng-click="bidItem(itemName,itemDescription,itemPrice,sellerName,itemqty,sellerlocation)" style="min-width: 120px">Auction</button>
+        <div style="margin-left: 150px;">
         <span class="glyphicon glyphicon-ok itemlist" aria-hidden="true" ng-show="status"></span>{{msg}}
+        </div>
         
          </div>
          </div>

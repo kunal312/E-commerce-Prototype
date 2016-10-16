@@ -87,6 +87,9 @@ color: #333;
 }
 
 </style>
+<div>
+<img src="/stylesheets/eBay.png" class="ebay-image-buy">
+ </div>
 <h1 class="headercart"> Your eBay Shopping Cart</h1>
 
 <div class="container">
@@ -116,27 +119,28 @@ color: #333;
 						</div>
 						</td>
 						<td data-th="Price" ng-model="price">{{i.itemprice | currency}}</td>
-							<td data-th="Quantity">
-					<input type="number" string-to-number ng-model="itemqty" min="0" max={{i.itemqty}} class="form-control text-center" value="1">
+					<td data-th="Quantity">
+					<input type="number" string-to-number ng-model="itemqty" ng-change="updateTotal(itemqty,i.itemprice,i.itemid)" min="1" max={{i.itemqty}} class="form-control text-center" value="1">
 					<div style="font-size:12px">
 					<span class="available">Max {{i.itemqty}}</span>
 					</div>
 							</td>
-							<td data-th="Subtotal" ng-model="price" class="text-center">{{subtotal}}</td>
+							<td data-th="Subtotal" ng-model="subtotal" class="text-center">{{i.itemprice*itemqty | currency }}</td>
 							<td class="actions" data-th="">
-							<button class="btn btn-danger" ng-click="removeitem()"><i class="fa fa-refresh">Remove</button>								
-							</td>
+							
+							<button class="btn btn-danger" ng-click="removeitem(i.itemid)"><i class="fa fa-refresh"><span class="glyphicon glyphicon-trash"></span></button>
+						</td>
 						</tr>
 						</tbody>
 						<tfoot>
 						<tr class="visible-xs">
-					<td class="text-center" ng-model="totalprice"><strong>{{totalprice}}</strong></td>
+					<td class="text-center" ng-model="totalprice"><strong>{{totalprice | currency}}</strong></td>
 						</tr>
 						<tr>
-							<td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+							<td><a ui-sref="successLogin.wobid" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
 							<td colspan="2" class="hidden-xs"></td>
-							<td class="hidden-xs text-center" ng-model="totalprice" ><strong>Total : {{totalprice}}</strong></td>
-							<td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+							<td class="hidden-xs text-center" ng-model="totalprice" ><strong>{{totalstring}} {{totalprice | currency}}</strong></td>
+							<td><a class="btn btn-success btn-block" ng-click="checkout()">Checkout <i class="fa fa-angle-right"></i></a></td>
 						</tr>
 					</tfoot>
 				</table>
@@ -151,12 +155,12 @@ color: #333;
 				
 					</div>
 				<div class="totalsummary">
-				<span class="totalcolor">Total:</span>
-				<span ng-model="totalprice" class="totalcolor">{{totalprice}}</span>
+				<span class="totalcolor">{{totalstring}}</span>
+				<span ng-model="totalprice" class="totalcolor">{{totalprice | currency}}</span>
 				</div>
 				
 				<div class="checkoutbutton">
-				<button class="btn btn-primary">Proceed to checkout</button> 
+				<button class="btn btn-primary" ng-click="checkout()">Proceed to checkout</button> 
 				</div>
 				
 				

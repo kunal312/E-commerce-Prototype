@@ -43,8 +43,12 @@ function putData(callback,sqlQuery1){
 	connection.query(sqlQuery1, function(err, rows, fields) {
 		if(err){
 			console.log("ERROR: " + err.message);
+			
 		}
-		
+		else{
+			console.log("Qty: " + rows);
+		    callback(err,rows);
+			}	
 	});
 	console.log("\nConnection closed..");
 	connection.end();

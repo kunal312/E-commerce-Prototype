@@ -24,7 +24,9 @@ $scope.login = function()
 							{
 								console.log("login successfull");
 								console.log("User Email "+data.useremail);
-								$state.go("successLogin", {"useremail" : data.useremail});
+								console.log("Last Login" +data.lastlogin);
+								//$state.go("successLogin", {"useremail" : data.useremail});
+								$state.go("successLogin");
 
 							}
 

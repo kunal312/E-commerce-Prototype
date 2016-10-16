@@ -10,10 +10,8 @@ dashboard.controller("showitemsController", function(data,$scope,$http,$window,$
 
 
 
-		$scope.addtoCart = function(itemname,description,price,qty,seller,shipfrom)
+		$scope.addtoCart = function(itemname,description,price,qty,seller,shipfrom,itemid)
 		{
-
-				
 			
 		$scope.itemName = itemname;	
 		console.log("ItemName: " + $scope.itemName);
@@ -23,6 +21,7 @@ dashboard.controller("showitemsController", function(data,$scope,$http,$window,$
 		$scope.itemqty = qty;		
 		$scope.sellerlocation = shipfrom;
 		console.log("sellerlocation: " + $scope.sellerlocation);
+
 
 				
 
@@ -37,7 +36,8 @@ dashboard.controller("showitemsController", function(data,$scope,$http,$window,$
 						"itemPrice": $scope.itemPrice,
 						"sellerName": $scope.sellerName,
 						"itemqty": $scope.itemqty,
-						"sellerlocation": $scope.sellerlocation
+						"sellerlocation": $scope.sellerlocation,
+						"itemid" : itemid
 						
 
 					}

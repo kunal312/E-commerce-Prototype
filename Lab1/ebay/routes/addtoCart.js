@@ -1,6 +1,7 @@
 var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
+var logger = require('./winston');
 
 router.post('/addtoCart' ,function(req,res,next)
 
@@ -9,14 +10,18 @@ router.post('/addtoCart' ,function(req,res,next)
 		
 			
 
-			itemName = req.body.itemName;	
+			var itemName = req.body.itemName;	
 			console.log("ItemName: " + itemName);
-			itemDescription = req.body.itemDescription;	
-			itemPrice = req.body.itemPrice;		
-			sellerName = req.body.sellerName;		
-			itemqty = req.body.itemqty;		
-			sellerlocation = req.body.sellerlocation;
+			var itemDescription = req.body.itemDescription;	
+			var itemPrice = req.body.itemPrice;		
+			var sellerName = req.body.sellerName;		
+			var itemqty = req.body.itemqty;		
+			var sellerlocation = req.body.sellerlocation;
 			console.log("sellerlocation: " + sellerlocation);
+			var itemid = req.body.itemid;
+
+logger.eventLogger.debug("Event:AddtoCart :Adding Item to" +req.session.username+ "cart,Item id:"+itemid);
+
 
 
 if(req.session.username)
@@ -24,7 +29,7 @@ if(req.session.username)
 
 
 var itemstocart = 
-'INSERT INTO cartitems (emailid, itemname, itemdescription,itemprice, itemseller,itemqty,itemlocation)VALUES ("' +req.session.username + '", "' + itemName + '", "' + itemDescription + '", "' + itemPrice + '",  "'+ sellerName +'","'+ itemqty +'","'+ sellerlocation +'")';
+'INSERT INTO cartitems (emailid, itemname, itemdescription,itemprice, itemseller,itemqty,itemlocation,itemid)VALUES ("' +req.session.username + '", "' + itemName + '", "' + itemDescription + '", "' + itemPrice + '",  "'+ sellerName +'","'+ itemqty +'","'+ sellerlocation +'","'+ itemid +'")';
 				
 
 console.log("Query " + itemstocart);
@@ -53,7 +58,7 @@ mysql.putItems(function(err,results){
 				
 				console.log("Cannot store Items into Database");
 
-					json_responses = {"statusCode" : 401 };
+					 json_responses = {"statusCode" : 401 };
 					console.log(json_responses);
 					res.send(json_responses);
 				

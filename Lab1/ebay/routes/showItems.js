@@ -2,6 +2,7 @@ var ejs = require("ejs");
 var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
+var logger = require('./winston');
 
 
 router.post('/showItems',function(req,res,next)
@@ -15,9 +16,10 @@ router.post('/showItems',function(req,res,next)
 			{
 		
 		
-var getItems="select * from items where emailid<>'"+email+"'";
+//var getItems="select * from items where emailid<>'"+email+"'";
+var getItems="select * from items where itemqty>0 and bid is null and emailid<>'"+email+"'";
 
-
+logger.eventLogger.debug("Event:Buy,Fetching fixed price items for  User:"+req.session.username);
 		mysql.getItems(function(err,results){
 		
 
@@ -39,7 +41,7 @@ var getItems="select * from items where emailid<>'"+email+"'";
 			   }
 			else {    
 				
-				console.log("No Items in Table");
+				console.log("No Items in Cart");
 
 					json_responses = {"statusCode" : 401 };
 					console.log(json_responses);
@@ -62,7 +64,21 @@ var getItems="select * from items where emailid<>'"+email+"'";
 
 
 		}
+
+
+
+
+
+
+
+
+
 })
+
+
+
+
+
 
 
 module.exports =router;

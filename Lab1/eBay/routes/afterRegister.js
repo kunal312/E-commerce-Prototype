@@ -2,6 +2,8 @@ var ejs = require("ejs");
 var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
+var bcrypt = require('bcrypt-nodejs');
+var logger = require('./winston');
 
 
 router.post('/afterRegister',function(req,res,next)
@@ -17,6 +19,8 @@ router.post('/afterRegister',function(req,res,next)
 	console.log("inputFirstName:" + firstname);
 	var lastname = req.body.inputLastName;
 	console.log("inputLastName:" + lastname);
+	var enryptedpwd = bcrypt.hashSync(password, bcrypt.genSaltSync(10));
+	console.log("Encrypted Pwd:" + enryptedpwd);
 
 if( req.param("inputUsername")!== undefined && req.param("inputPassword")!== undefined &&
 
@@ -25,6 +29,7 @@ if( req.param("inputUsername")!== undefined && req.param("inputPassword")!== und
 {
 
 
+logger.eventLogger.debug("Event:Register,Username:"+email);
 //var getUser= "select * from users where emailid= "+req.param("inputUsername");
 var getUser = "SELECT * FROM users WHERE `emailid` = '"+req.body.inputUsername+"'";
 console.log("Query is:"+getUser);
@@ -35,7 +40,9 @@ mysql.fetchData(function(err,results){
 		}
 		else 
 		{
-			if(results.length > 0){
+			if(results.length > 0)
+
+			{
 				console.log("user already exists.");
 				
 				json_responses = {"statusCode" : 401 };
@@ -46,7 +53,7 @@ mysql.fetchData(function(err,results){
 			else 
 			{    
 
-				var updateusers = 'INSERT INTO users (emailid, password, firstname, lastname) VALUES ("' + req.body.inputUsername + '", "' + req.body.inputPassword + '", "' + req.body.inputFirstName + '", "' + req.body.inputLastName + '")';
+				var updateusers = 'INSERT INTO users (emailid, password, firstname, lastname) VALUES ("' + req.body.inputUsername + '", "' + enryptedpwd + '", "' + req.body.inputFirstName + '", "' + req.body.inputLastName + '")';
 				console.log(updateusers);
 				mysql.putData(function(err,results)
 							{
@@ -57,17 +64,17 @@ mysql.fetchData(function(err,results){
 
 									else
 										{
-										console.log("user registered");
+										console.log("user created");
+				
+										json_responses = {"statusCode" : 200 };
+											console.log(json_responses);
+										res.send(json_responses);
 
 										}
 
 						},updateusers);
 
-				console.log("user created");
 				
-				json_responses = {"statusCode" : 200 };
-					console.log(json_responses);
-				res.send(json_responses);
 				
 				
 			}
