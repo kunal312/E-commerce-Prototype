@@ -15,7 +15,7 @@ var eventLogger = new (winston.Logger)
      filename: './event.log',
     level: 'debug',
     json: true,
-    eol: 'n'
+    eol: '\n'
 
 
 
@@ -41,7 +41,7 @@ var bidLogger = new (winston.Logger)
      filename: './bid.log',
     level: 'debug',
     json: true,
-    eol: 'n'
+    eol: '\n'
 
 
 

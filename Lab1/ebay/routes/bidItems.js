@@ -32,7 +32,7 @@ router.post('/biditems' ,function(req,res,next)
 		console.log("bidexpirtydate: "+ bidexpirydate);
 
 
-var bidquery = 'INSERT INTO items (emailid, itemname, itemdescription, itemprice, itemseller,itemlocation,bidprice,biduser,bidstartdate,bidexpirydate,bid,itemqty) VALUES ("' + email + '", "' + itemName + '", "' + itemDescription + '", "'+ basePrice +'" ,  "'+ sellerName +'","'+ sellerlocation +'","'+ bidprice +'" ,"'+ biduser +'","'+ bidstartdate +'","'+ bidexpirydate +'",1,1)';
+var bidquery = 'INSERT INTO items (emailid, itemname, itemdescription, itemprice, itemseller,itemlocation,bidprice,biduser,bidstartdate,bidexpirydate,bid,itemqty,totalqty) VALUES ("' + email + '", "' + itemName + '", "' + itemDescription + '", "'+ basePrice +'" ,  "'+ sellerName +'","'+ sellerlocation +'","'+ bidprice +'" ,"'+ biduser +'","'+ bidstartdate +'","'+ bidexpirydate +'",1,1,1)';
 
 logger.eventLogger.debug("Event:Auction,New Item for bidding added by User:"+email+",BidStardate:"+bidstartdate+",BidExpirydate:"+expiryDate);
 

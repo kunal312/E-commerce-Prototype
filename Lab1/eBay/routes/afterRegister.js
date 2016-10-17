@@ -4,6 +4,8 @@ var express = require('express');
 var router = express.Router();
 var bcrypt = require('bcrypt-nodejs');
 var logger = require('./winston');
+var crypto = require('crypto');
+var key = 'ebay_123';
 
 
 router.post('/afterRegister',function(req,res,next)
@@ -19,8 +21,10 @@ router.post('/afterRegister',function(req,res,next)
 	console.log("inputFirstName:" + firstname);
 	var lastname = req.body.inputLastName;
 	console.log("inputLastName:" + lastname);
-	var enryptedpwd = bcrypt.hashSync(password, bcrypt.genSaltSync(10));
+	var enryptedpwd = crypto.createHmac('sha1', key).update(password).digest('hex');
 	console.log("Encrypted Pwd:" + enryptedpwd);
+
+
 
 if( req.param("inputUsername")!== undefined && req.param("inputPassword")!== undefined &&
 

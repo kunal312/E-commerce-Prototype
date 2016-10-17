@@ -121,9 +121,13 @@ console.log("profilechange");
 
 }
 
+
 else{
 
 	console.log("User Not Logged in");
+	json_responses = {"statusCode" : 401 };
+										console.log(json_responses);
+										res.send(json_responses);
 }
 
 

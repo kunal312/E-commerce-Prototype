@@ -10,7 +10,7 @@ router.post('/fetchOrders',function(req,res,next)
 {
 
 	var email = req.session.username;
-	console.log("Email for Viewing cart " +email);
+	//console.log("Email for Viewing cart " +email);
 
 	if(req.session.username)
 			{
@@ -55,6 +55,13 @@ router.post('/fetchOrders',function(req,res,next)
 
 
 				}
+
+				else {
+					json_responses = {"statusCode" : 401 };
+					//console.log(json_responses);
+					res.send(json_responses);
+
+		}
 
 })
 

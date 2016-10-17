@@ -4,6 +4,8 @@ var express = require('express');
 var router = express.Router();
 var bcrypt = require('bcrypt-nodejs');
 var logger = require('./winston');
+var crypto = require('crypto');
+var key = 'ebay_123';
 
 router.post('/afterSignIn',function(req,res,next)
 
@@ -13,6 +15,9 @@ router.post('/afterSignIn',function(req,res,next)
 	console.log("reached after sign in checking if user exists");
 	console.log("Username " +req.param("inputUsername"));
 	console.log("Pwd " +req.param("inputPassword"));
+	var enryptedpwd = crypto.createHmac('sha1', key).update(req.param("inputPassword")).digest('hex');
+	console.log("Encrypted Pwd:" + enryptedpwd);
+
 
 
 	
@@ -21,7 +26,7 @@ router.post('/afterSignIn',function(req,res,next)
 	
 
 		{
-	var getUser="select * from users where emailid='"+req.param("inputUsername")+"'";
+	var getUser="select emailid from users where emailid='"+req.param("inputUsername")+"' and password='"+enryptedpwd+"'";
 
 	logger.eventLogger.debug("Event:SignIn,User:"+req.param("inputUsername"));
 
@@ -39,11 +44,9 @@ router.post('/afterSignIn',function(req,res,next)
 			{
 
 
-					console.log(bcrypt.compareSync(req.param("inputPassword"), results[0].password));
+					
 					console.log(results);
-					if(bcrypt.compareSync(req.param("inputPassword"), results[0].password))
-
-						{
+											
 							console.log("valid Login");
 							req.session.username = username;
 							console.log("Session initialized");
@@ -53,8 +56,8 @@ router.post('/afterSignIn',function(req,res,next)
 							json_responses = {"statusCode" : 200,"useremail":email } ;
 							console.log(json_responses);
 							res.send(json_responses);
-						}
-			   
+						
+			   }
 								else  {    
 				
 											console.log("Invalid Login");
@@ -67,7 +70,7 @@ router.post('/afterSignIn',function(req,res,next)
 
 				
 			
-		}  
+		 
 	},getUser);
 
 		}

@@ -48,20 +48,9 @@ app.use(session({
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
-//for generating winston logs
 
-/*
-winston.add( winston.transports.File, 
-  {
-    filename: './bid.log',
-    timestamp: true,
-    level: 'debug',
-    json: true,
-    eol: 'n'
-    
-  }
-)
-*/
+
+
 
 //app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -87,6 +76,7 @@ app.post('/bidupdate',bidupdate);
 app.post('/updateProfile',updateProfile);
 app.post('/profilechanges',profilechanges);
 app.post('/fetchOrders',fetchOrders);
+//app.get('/fetchOrders',fetchOrders);
 app.post('/sellinghistory',sellinghistory);
 
 

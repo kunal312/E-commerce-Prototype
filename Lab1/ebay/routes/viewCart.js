@@ -203,42 +203,15 @@ logger.bidLogger.debug("Bid Won by user:"+results[i].biduser+", Highest Bid amou
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			}
 
 
 	
 	else {
 
-
+			json_responses = {"statusCode" : 401 };
+					console.log(json_responses);
+					res.send(json_responses);
 
 		}
 })
