@@ -1,0 +1,100 @@
+ <nav class="navbar navbar-default customnavbar">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav customnavbar-nav">
+      <li class="dropdown" style="margin-left: 70px">
+        <a id="hi" class="dropdown-toggle" data-toggle="dropdown" href="" style="font-size: 12px">Hi <strong>{{useremail}} 
+        </strong>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a ui-sref="successLogin.profile">Profile</a></li>
+          <li><a ui-sref="successLogin.logout">Logout</a></li>
+        </ul>
+        </li>
+
+        <li class="dropdown"  style="margin-left: 800px">
+        <a  id="ebay" class="dropdown-toggle" data-toggle="dropdown" href="" style="font-size: 12px ">My eBay
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a ui-sref="successLogin.wobid" ui-sref-active="active">Buy</a></li>
+          <li><a ui-sref="successLogin.bid">Bid</a></li>
+          <li><a ui-sref="successLogin.sell">Selling</a></li>
+          <li><a ui-sref="successLogin.orderhistory">Order History</a></li>
+          <li><a ui-sref="successLogin.sellinghistory">Selling History</a></li>
+        </ul>
+         <li><a ui-sref="successLogin.cart">
+            <span class="glyphicon glyphicon-shopping-cart" style="font-size: 18px; color:white"></span>
+          </a></li> 
+    </li>
+    </ul>
+  </div>
+  
+  <div ui-view class="successview">
+  <div style="font-size:12px;margin-left: 15;font-weight: bold;color: green;">
+  Last Login: {{lastlogin}}
+  </div>
+  <div>
+<img src="/stylesheets/eBay.png" class="ebay-image-buy">
+ </div>
+
+<div class="container" >
+      <div >
+      <h1>Shop With Us</h1>
+      </div>
+
+  
+
+  <div class="col-sm-12"> 
+  <table id="cart" class="table table-hover table-condensed">
+           
+           <thead>
+            <tr>
+              <th style="width:20%">Product</th>
+              <th style="width:35%">Description</th>
+        <th style="width:10%">Price($)</th>
+        <th style="width:10%">Availaible</th>
+        <th style="width:10%">Seller</th>
+        <th style="width:15%">Shipping From</th>
+            </tr>
+          </thead>
+
+        <tbody>
+            <tr ng-repeat="i in items">
+             <td data-th="Product" ng-model="itemname">
+                <div class="row">
+                  <div class="col-sm-12">
+            <h4 class="nomargin">{{i.itemname}}</h4>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Description" ng-model="itemdescription">
+              <h4 class="nomargin">{{i.itemdescription}}</h4>
+              </td>
+              <td data-th="Price($)" ng-model="itemprice">
+              <h4 class="nomargin">{{i.itemprice | currency}}</h4>
+              </td>
+              <td data-th="Availaible" ng-model="itemremqty">
+              <h4 class="nomargin">{{i.itemremqty}}</h4>
+              </td>
+              <td data-th="Seller" ng-model="sellername">
+              <h4 class="nomargin">{{i.sellername}}</h4>
+              </td>
+              <td data-th="Shipping From" ng-model="sellerlocation">
+              <h4 class="nomargin">{{i.sellerlocation}}</h4>
+              </td>                    
+              <td>
+              <div  style="float:right" data-th="">
+            <button class="btn btn-success btn-sm" ng-click="addtoCart(i.itemname,i.itemdescription,i.itemprice,i.itemremqty,i.sellername,i.sellerlocation,i._id)" >Add to Cart</button> 
+          </div> 
+          </td>  
+      </tbody>
+
+
+  </table>
+
+                
+
+  </div>
+  
+</div>
+</div>
+</nav>

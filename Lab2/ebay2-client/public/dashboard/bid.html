@@ -1,0 +1,70 @@
+<div>
+<img src="/stylesheets/eBay.png" class="ebay-image-buy">
+ </div>
+
+<div class="container" >
+	   	<div >
+			<h1>Place your bid</h1>
+		  </div>
+
+  
+	 <div class="col-sm-12"> 
+  <table id="cart" class="table table-hover table-condensed">
+           
+           <thead>
+            <tr>
+              <th style="width:20%">Product</th>
+              <th style="width:35%">Description</th>
+			  <th style="width:10%">Price($)</th>
+			  <th style="width:10%">Your Bid($)</th>
+			  <th style="width:10%">Seller</th>
+			  <th style="width:15%">Bid Expires</th>
+            </tr>
+          </thead>
+
+		    <tbody>
+            <tr ng-repeat="i in biditems">
+             <td data-th="Product" ng-model="itemname">
+                <div class="row">
+                  <div class="col-sm-12">
+						<h4 class="nomargin">{{i.itemname}}</h4>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Description" ng-model="description">
+              <h4 class="nomargin">{{i.itemdescription}}</h4>
+              </td>
+              <td data-th="Price($)" ng-model="price">
+              <h4 class="nomargin">{{i.itemprice | currency}}</h4>
+              </td>
+              <td data-th="Your Bid">
+              <form name="bid">
+             	<strong><input type=number name="bidprice" ng-model="bidprice" ng-min={{i.itemprice}}  required style="margin-top: 5;width: 70; color: #006400; padding-left: 10px"></strong>
+             	<span style="font-size:12px;color:red">Min:{{i.itemprice}}</span>
+             	<div ng-messages='bid.bidprice.$error' ng-if='bid.bidprice.$dirty'>
+		   		<div ng-message="required" style="font-size:12px;color:red">Required field</div>
+		   		<div ng-message="min" style="font-size:12px;color:red">Min Value:{{i.itemprice | currency}}</div>
+				</div>
+				</form>
+              </td>
+              <td data-th="Seller" ng-model="seller">
+              <h4 class="nomargin">{{i.sellername}}</h4>
+              </td>
+              <td data-th="Bid Expires" ng-model="bidexpires">
+              <h4 class="nomargin" style="font-size: 12px;color:blue">{{i.bidexpirydate}}</h4>
+              </td>                    
+              <td>
+              <div  style="float:right" data-th="">
+      		  <button class="btn btn-success btn-sm" ng-click="bidforItem(i.itemid,bidprice)" >BID IT</button> 
+     		  </div> 
+     		  </td>  
+			</tbody>
+
+
+	</table>
+
+                
+
+	</div>
+  
+</div>

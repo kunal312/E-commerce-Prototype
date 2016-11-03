@@ -1,0 +1,7 @@
+{"level":"debug","message":"Event:UpdateProfile,Updating Profile for User:undefined","timestamp":"Sun Oct 16 2016 01:41:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:UpdateProfile,Updating Profile for User:undefined","timestamp":"Sun Oct 16 2016 01:46:07 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:UpdateProfile,Updating Profile for User:undefined","timestamp":"Sun Oct 16 2016 01:46:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sun Oct 16 2016 19:39:49 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sun Oct 16 2016 19:52:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sun Oct 16 2016 19:53:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:undefined","timestamp":"Sun Oct 16 2016 20:09:59 GMT-0700 (PDT)"}

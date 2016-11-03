@@ -1,0 +1,172 @@
+
+<style>
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+        width:20%;
+        display: inline !important;
+    }
+    .actions .btn{
+        width:36%;
+        margin:1.5em 0;
+    }
+    
+    .actions .btn-info{
+        float:left;
+    }
+    .actions .btn-danger{
+        float:right;
+    }
+    
+    table#cart thead { display: none; }
+    table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+    table#cart tbody tr td:first-child { background: #333; color: #fff; }
+    table#cart tbody td:before {
+        content: attr(data-th); font-weight: bold;
+        display: inline-block; width: 8rem;
+    }
+    
+    
+    
+    table#cart tfoot td{display:block; }
+    table#cart tfoot td .btn{display:block;}
+    
+}
+.customviewcartborder{
+border: 1px solid #ddd;
+    box-sizing: border-box;
+  
+}
+.pb15 {
+    padding-bottom: 15px;
+}
+.headingcartsummary{
+display: inline;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Verdana,Sans-serif;
+}
+.pt10 {
+    padding-top: 10px;
+}
+.solidLine {
+    background-color: transparent;
+    border-top: 1px solid #777;
+    color: transparent;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 1px;
+    float: left;
+}
+.totalsummary{
+font-weight: bold;
+font-size: 28px;
+
+}
+.totalcolor{
+color: #333;
+}
+.checkoutbutton{
+    margin: 15px 8px 17px 1px;
+    padding: 0;
+    border: 0;
+    font-size: 150%;
+}
+.headercart{
+
+	font-size: 28px;
+    padding-left: 55px;
+}
+
+</style>
+<div>
+<img src="/stylesheets/eBay.png" class="ebay-image-buy">
+ </div>
+<h1 class="headercart"> Your eBay Shopping Cart</h1>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-8 customviewcartborder">
+		<table id="cart" class="table table-hover table-condensed">
+		<thead>
+						<tr>
+							<th style="width:50%">Product</th>
+							<th style="width:10%">Price</th>
+							<th style="width:8%">Quantity</th>
+							<th style="width:22%" class="text-center">Subtotal</th>
+							<th style="width:10%"></th>
+						</tr>
+		</thead>
+
+		<tbody>
+						<tr ng-repeat="i in items">
+						<td data-th="Product">
+						<div class="row">
+						
+						<div class="col-sm-12 " >
+						<p ng-model="sellername" style="font-size: 12px">Seller: {{i.cartitems.sellername}},{{i.cartitems.sellerlocation}}</p>
+						<h4 class="nomargin" ng-model="itemname">{{i.cartitems.itemname}}</h4>
+						<p ng-model="itemdescription">{{i.cartitems.itemdescription}}</p>
+						</div>
+						</div>
+						</td>
+						<td data-th="Price" ng-model="itemprice">{{i.cartitems.itemprice | currency}}</td>
+					<td data-th="Quantity">
+	<input type="number" string-to-number ng-model="itemremqty" value="1" min="1" max={{i.cartitems.itemremqty}} ng-change="updateTotal(itemremqty,i.cartitems.itemprice,i.cartitems._id)"  class="form-control text-center" >
+					<div style="font-size:12px">
+					<span class="available">Max {{i.cartitems.itemremqty}}</span>
+					</div>
+							</td>
+							<td data-th="Subtotal" ng-model="subtotal" class="text-center">{{i.cartitems.itemprice*itemremqty | currency }}</td>
+							<td class="actions" data-th="">
+							
+							<button class="btn btn-danger" ng-click="removeitem(i.cartitems._id)"><i class="fa fa-refresh"><span class="glyphicon glyphicon-trash"></span></button>
+						</td>
+						</tr>
+						</tbody>
+						<tfoot>
+						<tr class="visible-xs">
+					<td class="text-center" ng-model="totalprice"><strong>{{totalprice | currency}}</strong></td>
+						</tr>
+						<tr>
+							<td><a ui-sref="successLogin.wobid" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+							<td colspan="2" class="hidden-xs"></td>
+							<td class="hidden-xs text-center" ng-model="totalprice" ><strong>{{totalstring}} {{totalprice | currency}}</strong></td>
+							<td><a class="btn btn-primary btn-block" ng-click="checkout()">Checkout <i class="fa fa-angle-right"></i></a></td>
+						</tr>
+					</tfoot>
+				</table>
+				</div>
+				
+				<div class="col-sm-4 customviewcartborder" style="width: 22% ;margin-left:55px">
+					<div class="pb15">
+						<h2 class="headingcartsummary">Cart Summary</h2>
+						<div aria-hidden="true" class="pt10">
+						<hr class="solidline">
+						</div>
+				
+					</div>
+				<div class="totalsummary">
+				<span class="totalcolor">{{totalstring}}</span>
+				<span ng-model="totalprice" class="totalcolor">{{totalprice | currency}}</span>
+				</div>
+				
+				<div class="checkoutbutton">
+				<button class="btn btn-primary" ng-click="checkout()">Proceed to checkout</button> 
+				</div>
+				
+				
+				
+				</div >
+				
+				
+				</div>
+</div>
