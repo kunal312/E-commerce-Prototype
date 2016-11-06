@@ -6,6 +6,7 @@ dashboard.controller("viewcartController", function(data,$scope,$http,$state)
 		    $scope.items = data.items
 		    $scope.totalstring = "Total";
 		    $scope.totalprice=0;
+		 
 
 		    $scope.x=0;
 		    $scope.itemremqty=1;

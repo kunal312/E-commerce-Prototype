@@ -9,6 +9,8 @@ var sellitems_server = require('./services/sellitems_server');
 var showitems_server = require('./services/showitems_server');
 var cart_server = require('./services/cart_server');
 var payment = require('./services/payment');
+var history = require('./services/history');
+var bidding = require('./services/bidding');
 
 mongoose.Promise = global.Promise;
 var connection = mongoose.connect("mongodb://localhost:27017/ebaynew2");
@@ -262,5 +264,79 @@ cnn.on('ready', function(){
 	});
 	
 	
+	cnn.queue('checkoutItems_queue', function(q){
+		console.log("listening on checkoutItems_queue");
+		q.subscribe(function(message, headers, deliveryInfo, m){
+			util.log(util.format( deliveryInfo.routingKey, message));
+			util.log("Message: "+JSON.stringify(message));
+			util.log("DeliveryInfo: "+JSON.stringify(deliveryInfo));
+			payment.checkoutItems_request(message, function(err,res){
 
+				//return index sent
+				cnn.publish(m.replyTo, res, {
+					contentType:'application/json',
+					contentEncoding:'utf-8',
+					correlationId:m.correlationId
+				});
+			});
+		});
+	});
+	
+	cnn.queue('sellinghistory_queue', function(q){
+		console.log("listening on sellinghistory_queue");
+		q.subscribe(function(message, headers, deliveryInfo, m){
+			util.log(util.format( deliveryInfo.routingKey, message));
+			util.log("Message: "+JSON.stringify(message));
+			util.log("DeliveryInfo: "+JSON.stringify(deliveryInfo));
+			history.sellinghistory_request(message, function(err,res){
+
+				//return index sent
+				cnn.publish(m.replyTo, res, {
+					contentType:'application/json',
+					contentEncoding:'utf-8',
+					correlationId:m.correlationId
+				});
+			});
+		});
+	});
+	
+	
+	cnn.queue('orderhistory_queue', function(q){
+		console.log("listening on orderhistory_queue");
+		q.subscribe(function(message, headers, deliveryInfo, m){
+			util.log(util.format( deliveryInfo.routingKey, message));
+			util.log("Message: "+JSON.stringify(message));
+			util.log("DeliveryInfo: "+JSON.stringify(deliveryInfo));
+			history.orderhistory_request(message, function(err,res){
+
+				//return index sent
+				cnn.publish(m.replyTo, res, {
+					contentType:'application/json',
+					contentEncoding:'utf-8',
+					correlationId:m.correlationId
+				});
+			});
+		});
+	});
+	
+
+	cnn.queue('bidupdate_queue', function(q){
+		console.log("listening on bidupdate_queue");
+		q.subscribe(function(message, headers, deliveryInfo, m){
+			util.log(util.format( deliveryInfo.routingKey, message));
+			util.log("Message: "+JSON.stringify(message));
+			util.log("DeliveryInfo: "+JSON.stringify(deliveryInfo));
+			bidding.bidupdate_request(message, function(err,res){
+
+				//return index sent
+				cnn.publish(m.replyTo, res, {
+					contentType:'application/json',
+					contentEncoding:'utf-8',
+					correlationId:m.correlationId
+				});
+			});
+		});
+	});
+	
+	
 });//Closing Main Function "on ready"

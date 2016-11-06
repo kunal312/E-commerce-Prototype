@@ -11761,3 +11761,604 @@
 {"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 15:42:23 GMT-0700 (PDT)"}
 {"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 15:42:32 GMT-0700 (PDT)"}
 {"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 15:42:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 15:59:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 15:59:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 15:59:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 15:59:39 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 15:59:39 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 16:01:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:01:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:01:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:02:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:02:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:02:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:kunal312@gmail.com,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 16:03:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:03:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 16:03:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Thu Nov 03 2016 16:04:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:04:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:04:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:04:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:04:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 16:21:09 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:21:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:21:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:21:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:21:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 16:44:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:44:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:44:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:44:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:44:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 16:47:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:47:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:52:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:52:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:52:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 16:57:43 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:57:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 16:57:46 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:57:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:kunal312@gmail.com,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 16:57:49 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:57:49 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 16:57:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:57:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:58:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 16:58:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 17:08:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:09:01 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:09:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:09:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:09:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 17:10:49 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:10:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:10:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:11:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:11:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:11:38 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 17:14:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:14:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:14:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:15:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:15:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:15:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:16:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:16:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:16:36 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 17:24:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:24:38 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:24:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:25:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:25:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:25:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 17:52:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:52:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 17:52:24 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Thu Nov 03 2016 17:52:26 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:52:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:52:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:52:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 17:55:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:55:33 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:55:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 17:55:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Thu Nov 03 2016 17:55:39 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:55:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:56:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:59:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:59:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 17:59:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 18:02:43 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:02:44 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:02:46 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 18:02:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Thu Nov 03 2016 18:02:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:02:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:03:07 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:03:07 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 18:24:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:24:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 18:24:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Thu Nov 03 2016 18:24:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:24:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:25:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:25:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:40:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Thu Nov 03 2016 18:41:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Thu Nov 03 2016 18:41:20 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:41:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:41:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 18:41:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 19:20:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 19:20:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 19:20:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:20:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:21:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:22:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:22:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:22:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 19:23:20 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:23:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Register,Username:tim@gmail.com","timestamp":"Thu Nov 03 2016 19:24:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:tim@gmail.com","timestamp":"Thu Nov 03 2016 19:24:24 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 19:24:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 19:24:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 19:25:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:25:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 19:25:07 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:25:09 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 19:25:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:25:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:25:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:25:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 19:26:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 19:26:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 19:27:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:27:20 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 19:27:43 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 19:28:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:58199df19a7546753a9bff82","timestamp":"Thu Nov 03 2016 19:28:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 19:28:20 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 19:28:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:28:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:28:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:28:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 19:29:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:29:11 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:ma@gmail.com,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 19:29:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:29:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 19:29:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:29:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:29:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:29:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:29:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 19:29:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 19:29:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 19:30:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 19:30:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 19:31:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 19:31:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 19:31:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 19:31:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:31:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 19:55:49 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 19:55:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 19:55:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:55:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199df19a7546753a9bff82","timestamp":"Thu Nov 03 2016 19:55:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:56:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:56:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 19:56:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:56:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:56:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:56:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:57:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199df19a7546753a9bff82","timestamp":"Thu Nov 03 2016 19:58:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 19:58:30 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 19:58:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:58:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 19:58:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:01:26 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199df19a7546753a9bff82","timestamp":"Thu Nov 03 2016 20:01:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:01:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 20:01:33 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:01:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:01:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:01:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:02:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199df19a7546753a9bff82","timestamp":"Thu Nov 03 2016 20:03:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:03:01 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:03:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:03:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:03:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:05:30 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:05:33 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199df19a7546753a9bff82","timestamp":"Thu Nov 03 2016 20:05:36 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:05:38 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:05:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:05:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:06:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:06:43 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199df19a7546753a9bff82","timestamp":"Thu Nov 03 2016 20:06:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:06:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:06:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:06:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:09:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:09:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:10:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:10:06 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:10:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:13:26 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:13:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:tim@gmail.com,Item id:58199e519a7546753a9bff84","timestamp":"Thu Nov 03 2016 20:13:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:13:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:tim@gmail.com,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:13:30 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:13:30 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:13:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:13:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:13:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:13:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:14:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:14:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:15:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:15:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:15:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:15:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:16:36 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:16:36 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:16:58 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:16:58 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Sell,New Fixed Price Item added by User:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:22:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 20:22:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 20:22:20 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Thu Nov 03 2016 20:22:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:22:30 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Thu Nov 03 2016 20:22:43 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 20:22:46 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 20:23:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 20:23:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:23:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:23:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Thu Nov 03 2016 20:24:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Thu Nov 03 2016 20:24:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Thu Nov 03 2016 20:25:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:25:10 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:tim@gmail.com,Item id:581bfee66784623058ad5a28","timestamp":"Thu Nov 03 2016 20:25:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:25:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Thu Nov 03 2016 20:25:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:25:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:25:38 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:25:38 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 20:25:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 20:25:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Sell,New Fixed Price Item added by User:kunal312@gmail.com","timestamp":"Thu Nov 03 2016 20:33:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 20:33:24 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:33:26 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:33:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:33:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:34:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:34:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:ma@gmail.com,Item id:58199e129a7546753a9bff83","timestamp":"Thu Nov 03 2016 20:34:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:34:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:34:20 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:34:20 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:34:36 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:34:36 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:35:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:35:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:ma@gmail.com,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:36:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:36:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:36:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:36:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 20:38:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:38:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:38:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:38:10 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:ma@gmail.com,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:38:25 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:38:25 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:38:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:38:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:38:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:38:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:39:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:39:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:39:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:39:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:41:39 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:41:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:tim@gmail.com,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:41:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:41:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totim@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:41:44 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tim@gmail.com","timestamp":"Thu Nov 03 2016 20:41:46 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:42:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:42:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:42:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:42:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:42:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tim@gmail.com","timestamp":"Thu Nov 03 2016 20:42:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:tim@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 20:43:06 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:tcook@gmail.com","timestamp":"Thu Nov 03 2016 20:43:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item totcook@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:43:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for tcook@gmail.com","timestamp":"Thu Nov 03 2016 20:43:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:43:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:43:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:44:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:44:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:tcook@gmail.com","timestamp":"Thu Nov 03 2016 20:44:09 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:tcook@gmail.com","timestamp":"Thu Nov 03 2016 20:44:09 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:tcook@gmail.comDestroying Session","timestamp":"Thu Nov 03 2016 20:45:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:581c017f51977132dc938854","timestamp":"Thu Nov 03 2016 20:46:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Thu Nov 03 2016 20:46:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:48:33 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Thu Nov 03 2016 20:48:33 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 10:47:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 10:49:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 10:49:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 10:49:24 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 10:50:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 10:50:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 11:11:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:11:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:11:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 11:18:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:18:24 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:18:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:20:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:20:58 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:21:01 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:21:06 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 11:30:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:30:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:30:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:30:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 11:32:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:32:06 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:32:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:32:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 11:32:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:33:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:33:11 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:33:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:35:11 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:35:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 11:36:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:36:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:36:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:38:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 11:39:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:39:44 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:39:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Fri Nov 04 2016 11:41:10 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Fri Nov 04 2016 11:41:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:ma@gmail.com","timestamp":"Fri Nov 04 2016 11:41:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:ma@gmail.com","timestamp":"Fri Nov 04 2016 11:41:39 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:56:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:56:46 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:56:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Profile,Fetching Profile for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:57:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:57:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:57:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Fri Nov 04 2016 11:57:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 03:57:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 03:57:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 03:57:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 03:57:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 03:58:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 03:58:11 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 04:00:28 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 04:00:30 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:00:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:00:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:00:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:00:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:00:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:07:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:08:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:10:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:10:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:13:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 04:13:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 10:02:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 10:13:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 10:13:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 10:13:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 10:14:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 11:04:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 11:04:49 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 11:04:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 11:09:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 11:13:49 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 11:13:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 11:13:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 11:56:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 11:56:06 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 11:56:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 11:57:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 11:57:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 11:57:24 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 12:27:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:tcook@gmail.com","timestamp":"Sat Nov 05 2016 12:28:01 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:tcook@gmail.com","timestamp":"Sat Nov 05 2016 12:28:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:tcook@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 12:53:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 12:53:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 12:53:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 12:53:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 12:54:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 12:54:06 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 12:54:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:11:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:11:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:13:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:13:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 13:19:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:19:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:19:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:20:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:22:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:24:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:26:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 13:29:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:29:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:29:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Sell,New Fixed Price Item added by User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:30:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Auction,New Item for bidding added by User:kunal312@gmail.com,BidStardate:Sat Nov 05 2016 13:30:45 GMT-0700 (PDT),BidExpirydate:Wed Nov 09 2016 12:30:45 GMT-0800 (PST)","timestamp":"Sat Nov 05 2016 13:30:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 13:30:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 13:30:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 13:30:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 13:32:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:32:23 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 13:32:25 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 13:35:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 13:35:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 13:35:10 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 13:35:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:45:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:46:10 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:46:11 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:46:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 14:47:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 14:47:01 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 14:47:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 14:47:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 14:47:07 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 14:47:10 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 14:47:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 14:47:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 14:47:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:50:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:52:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 14:53:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 14:53:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:53:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:54:31 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:56:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 14:57:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 14:58:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 14:58:06 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:58:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 14:59:27 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:01:44 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:02:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:03:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 15:04:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 15:04:43 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 15:04:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 15:04:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:04:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:04:58 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 15:05:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 15:05:06 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 15:05:09 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 15:06:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Auction,New Item for bidding added by User:kunal312@gmail.com,BidStardate:Sat Nov 05 2016 15:06:46 GMT-0700 (PDT),BidExpirydate:Wed Nov 09 2016 14:06:46 GMT-0800 (PST)","timestamp":"Sat Nov 05 2016 15:06:46 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 15:06:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 15:06:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:06:58 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:01 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:39 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:44 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:46 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:07:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:08:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:08:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:08:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Sat Nov 05 2016 15:26:59 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for ma@gmail.com","timestamp":"Sat Nov 05 2016 15:27:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:27:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:27:08 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:ma@gmail.com","timestamp":"Sat Nov 05 2016 15:27:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Sat Nov 05 2016 15:27:21 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item toma@gmail.comcart,Item id:58199e519a7546753a9bff84","timestamp":"Sat Nov 05 2016 15:27:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 17:21:39 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:21:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:21:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:kunal312@gmail.com,Item id:581bfee66784623058ad5a28","timestamp":"Sat Nov 05 2016 17:21:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:21:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:21:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:23:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:26:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:27:32 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:28:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:30:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:32:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:32:23 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:34:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:36:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 17:37:12 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:37:14 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:37:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:37:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:37:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:37:23 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:38:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:38:44 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:38:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:38:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:40:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:40:09 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:40:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:40:23 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:40:29 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:40:30 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:40:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:40:46 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:40:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:41:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:41:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:42:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Sat Nov 05 2016 17:42:04 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:42:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:42:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:46:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:46:55 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:48:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:49:58 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:kunal312@gmail.com,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:50:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:kunal312@gmail.com,Item id:581bfee66784623058ad5a28","timestamp":"Sat Nov 05 2016 17:50:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:17 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:50:23 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:26 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:30 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:50:38 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:50:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:50:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:42 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:50:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:51:09 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:51:09 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:52:39 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:52:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:52:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:53:23 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:54:41 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Sat Nov 05 2016 17:56:11 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:56:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:kunal312@gmail.com,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:56:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:56:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:kunal312@gmail.com,Item id:581bfee66784623058ad5a28","timestamp":"Sat Nov 05 2016 17:56:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:56:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:56:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:56:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:56:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:56:23 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:58:22 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 17:58:45 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:58:48 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:58:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Delete :Deleting  Items user:kunal312@gmail.com,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:58:51 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:58:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581abaa1d79db10f3ac38318","timestamp":"Sat Nov 05 2016 17:58:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:58:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:58:58 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:59:10 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:59:13 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Sat Nov 05 2016 17:59:15 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:58199fc09a7546753a9bff86","timestamp":"Sat Nov 05 2016 17:59:16 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:AddtoCart :Adding Item tokunal312@gmail.comcart,Item id:581bfee66784623058ad5a28","timestamp":"Sat Nov 05 2016 17:59:18 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:59:20 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:59:36 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:59:36 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 17:59:47 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 17:59:50 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:ma@gmail.com","timestamp":"Sat Nov 05 2016 17:59:52 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:ma@gmail.com","timestamp":"Sat Nov 05 2016 17:59:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:OrderHistory,Fetching Order history for User:ma@gmail.com","timestamp":"Sat Nov 05 2016 17:59:58 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SellingHistory,Fetching selling history for User:ma@gmail.com","timestamp":"Sat Nov 05 2016 18:00:02 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Auction,New Item for bidding added by User:ma@gmail.com,BidStardate:Sat Nov 05 2016 18:00:34 GMT-0700 (PDT),BidExpirydate:Wed Nov 09 2016 17:00:34 GMT-0800 (PST)","timestamp":"Sat Nov 05 2016 18:00:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:ma@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 18:00:37 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 18:00:38 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Bid :Retrieving  Items  availabe for Bidding for user:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 18:00:40 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 18:00:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 18:00:54 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Profile,Fetching Profile for User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 18:00:56 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:UpdateProfile,Updating Profile for User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 18:01:01 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:UpdateProfile,Updating Profile for User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 18:01:05 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:logout,Logging out User:kunal312@gmail.comDestroying Session","timestamp":"Sat Nov 05 2016 18:01:18 GMT-0700 (PDT)"}

@@ -33,6 +33,9 @@ var viewCart = require('./routes/viewCart');
 var removefromCart = require('./routes/removefromCart');
 var paymentValidate = require('./routes/paymentValidate');
 var checkout = require('./routes/checkout');
+var fetchOrders = require('./routes/fetchOrders');
+var sellinghistory = require('./routes/sellinghistory');
+var bidupdate = require('./routes/bidupdate');
 var logout = require('./routes/logout');
 
 
@@ -92,6 +95,9 @@ app.post('/viewCart',viewCart);
 app.post('/removefromCart',removefromCart);
 app.post('/paymentValidate',paymentValidate);
 app.post('/checkout',checkout);
+app.post('/fetchOrders',fetchOrders);
+app.post('/sellinghistory',sellinghistory);
+app.post('/bidupdate',bidupdate);
 app.post('/logout' ,logout);
 
 

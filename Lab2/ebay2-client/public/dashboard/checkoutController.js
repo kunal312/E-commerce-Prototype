@@ -86,6 +86,7 @@ dashboard.controller("checkoutController", function($scope,$http,$state,$statePa
 					{
 
 						console.log("Status Code " + data.statusCode);
+						console.log("item" + data.item);
 						if(data.statusCode==401)
 							{
 								
@@ -93,7 +94,7 @@ dashboard.controller("checkoutController", function($scope,$http,$state,$statePa
 				
 								console.log("Quantity unavailable for one or more item(s)");
 								$scope.failure=true;
-								$scope.msg1 ="Quantity unavailable for one or more item(s)";
+								$scope.msg1 ="Order cannot be placed for Item : "+ data.item;
 								
 
 							}

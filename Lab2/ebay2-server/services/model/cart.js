@@ -5,7 +5,8 @@ var Schema = mongoose.Schema;
 
 var cartSchema = new Schema({
 	email: {type: String},
-	cartitems : { type: Schema.ObjectId, ref: 'Item' }
+	cartitems : { type: Schema.ObjectId, ref: 'Item' },
+
 	
 	
 });

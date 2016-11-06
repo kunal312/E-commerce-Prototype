@@ -4,21 +4,21 @@ var router = express.Router();
 var logger = require('./winston');
 var mq_client = require('../rpc/client');
 
-router.post('/viewCart',function(req,res,next)
+
+router.post('/sellinghistory',function(req,res,next)
 
 {
 
 	var email = req.session.username;
-	console.log("Email for Viewing cart " +email);
-	var json_response ={};
-
+	console.log("Email for Selling History  " +email);
+	var json_responses = {};
 	if(req.session.username)
-			{
-		
+			
+	{
 		
 		
 
-logger.eventLogger.debug("Event:ViewCart :Fetching Items for " +req.session.username);
+logger.eventLogger.debug("Event:SellingHistory,Fetching selling history for User:"+email);
 
 
 
@@ -28,7 +28,7 @@ var msg_payload = {
 		
 };
 
-mq_client.make_request('viewCart_queue',msg_payload, function(err,results){
+mq_client.make_request('sellinghistory_queue',msg_payload, function(err,results){
 
 	if(err){
 		throw err;
@@ -42,21 +42,22 @@ mq_client.make_request('viewCart_queue',msg_payload, function(err,results){
 
 			{
 			
-			console.log("Items Fetched from cart");
-			console.log("Results:"+results.value);
-			json_responses = {"statusCode" : 200,"items":results.value } ;
-			//console.log(json_responses);
-			res.send(json_responses);
+			console.log(" Fetched sold items");
 
+			var soldlist = results.items;
+			console.log("SoldItems:" + soldlist);
+			json_responses = {"statusCode" : 200,"solditems":soldlist } ;
+			console.log(json_responses);
+			res.send(json_responses);
 			
 			}
 		else if(results.statusCode == 401)
 		{
-			console.log("No Items in Table");
-
+			console.log("No Sold Orders");
 			json_responses = {"statusCode" : 401 };
 			console.log(json_responses);
 			res.send(json_responses);
+
 
 		}
 								
@@ -65,18 +66,14 @@ mq_client.make_request('viewCart_queue',msg_payload, function(err,results){
 
 
 
-			}
 
 
-	
-	else {
 
-			json_responses = {"statusCode" : 401 };
-					console.log(json_responses);
-					res.send(json_responses);
+		
 
-		}
-})
 
+				}
+
+});
 
 module.exports =router;

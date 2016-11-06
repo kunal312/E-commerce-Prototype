@@ -21,8 +21,8 @@ var itemSchema = new Schema({
 	sellername:  {type: String},
 	bidprice: {type: Number},
 	biduser: {type: String},
-	bidstartdate:{type: String},
-	bidexpirydate: {type: String},
+	bidstartdate:{type: Date},
+	bidexpirydate: {type: Date},
 	forbid:{type: Boolean, default:false},
 
 	
