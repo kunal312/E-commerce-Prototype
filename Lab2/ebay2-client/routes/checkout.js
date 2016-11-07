@@ -1,5 +1,4 @@
 var ejs = require("ejs");
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var mq_client = require('../rpc/client');
@@ -42,7 +41,9 @@ if(req.session.username)
 	mq_client.make_request('checkoutItems_queue',msg_payload, function(err,results){
 
 		if(err){
-			throw err;
+			console.log(err);
+			json_responses = {"statusCode" : 405} ;
+			res.send(json_responses);
 		}
 		else 
 		{

@@ -12,8 +12,8 @@ dashboard.controller("viewcartController", function(data,$scope,$http,$state)
 		    $scope.itemremqty=1;
 
 		    //For Calculating Total when page loads
- if(data.statusCode!==401)
-{
+		    	if(data.statusCode!==401)
+ 	{
 		    for(i=0; i<data.items.length;i++)
 				{
 

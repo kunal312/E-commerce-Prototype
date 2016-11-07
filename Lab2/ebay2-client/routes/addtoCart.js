@@ -1,4 +1,3 @@
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var logger = require('./winston');
@@ -43,7 +42,10 @@ if(req.session.username)
 	mq_client.make_request('addToCart_queue',msg_payload, function(err,results){
 
 		if(err){
-			throw err;
+		console.log(err);
+		json_responses = {"statusCode" : 405} ;
+		res.send(json_responses);
+		
 		}
 		else 
 		{

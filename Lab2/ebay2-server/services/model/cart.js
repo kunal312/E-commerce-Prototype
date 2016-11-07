@@ -1,7 +1,12 @@
 var mongoose = require('mongoose');
-
-
 var Schema = mongoose.Schema;
+var connection = require('../connectmongoose');
+
+
+var tempConn = connection.exportConnection();
+connection.sendBackConnection(tempConn);
+
+
 
 var cartSchema = new Schema({
 	email: {type: String},
@@ -12,6 +17,6 @@ var cartSchema = new Schema({
 });
 
 
-var Cart = mongoose.model('Cart', cartSchema);
+var Cart = tempConn.model('Cart', cartSchema);
 
 exports.Cart = Cart;

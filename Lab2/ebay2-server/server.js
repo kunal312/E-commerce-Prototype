@@ -1,7 +1,7 @@
 //super simple rpc server example
 var amqp = require('amqp')
 , util = require('util');
-var mongoose = require('mongoose');
+//var mongoose = require('mongoose');
 var login = require('./services/login');
 var register = require('./services/register');
 var fetchprofile = require('./services/fetchprofile');
@@ -12,8 +12,10 @@ var payment = require('./services/payment');
 var history = require('./services/history');
 var bidding = require('./services/bidding');
 
-mongoose.Promise = global.Promise;
-var connection = mongoose.connect("mongodb://localhost:27017/ebaynew2");
+
+
+//mongoose.Promise = global.Promise;
+//var connection = mongoose.connect("mongodb://localhost:27017/ebaynew2");
 
 var cnn = amqp.createConnection({host:'127.0.0.1'});
 

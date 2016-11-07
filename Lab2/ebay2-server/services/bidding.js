@@ -36,7 +36,7 @@ Item.findOne({"_id":msg.itemid},function (err,item){
 				  
 				  if(item.bidprice<msg.bidprice)
 					  {
-					  	console.log(item._bidprice+"<"+msg.bidprice);
+					  	console.log(item.bidprice+"<"+msg.bidprice);
 					  	
 					  	var query = { _id:msg.itemid };
 				    	// var options = { multi: true };
@@ -48,7 +48,7 @@ Item.findOne({"_id":msg.itemid},function (err,item){
 				    	 
 				    	Item.update(query, { $set: update},function(err,WriteResult) {
 				    	  
-				        
+				        console.log("WriteResult:"+WriteResult);
 				    	
 				        if(err)
 				    		  {
@@ -62,18 +62,8 @@ Item.findOne({"_id":msg.itemid},function (err,item){
 				    			  callback(null, res);
 				    		  }
 				    		  		
-				    	  		else if(WriteResult.nModified==0)
-				    				  {
-				    	  				
-				    	 console.log("Did not update the Bid Price since bid price was less than existing bid price ");
-					    			  res.statusCode = "200";
-					    			  callback(null, res);
-				    		  			
-				    				  } 
-				    	  	
-				    	    
-				    		
-				      
+				
+				          
 				      
 				       });
 				    
@@ -81,7 +71,12 @@ Item.findOne({"_id":msg.itemid},function (err,item){
 					  	
 					  }
 					  	
-					  	
+				  else{
+					  console.log("Did not update the Bid Price since bid price was less than existing bid price ");
+					   res.statusCode = "200";
+					   callback(null, res);
+					  
+				  }  	
 					  	
 					  	
 		

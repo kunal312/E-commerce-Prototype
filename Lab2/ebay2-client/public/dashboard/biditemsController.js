@@ -44,6 +44,11 @@ dashboard.controller("biditemsController", function(data,$scope,$http,$window,$s
 								
 
 							}
+						else if(data.statusCode==405){
+							
+							alert("Cannot log Bid. Request Timed Out!");
+						}
+
 
 							else 
 								{

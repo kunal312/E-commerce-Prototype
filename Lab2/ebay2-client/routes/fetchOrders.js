@@ -1,4 +1,3 @@
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var logger = require('./winston');
@@ -29,13 +28,18 @@ router.post('/fetchOrders',function(req,res,next)
 	
 	mq_client.make_request('orderhistory_queue',msg_payload, function(err,results){
 
-		if(err){
-			throw err;
-		}
+		if(err)
+		{
+		console.log("Error in fetchorders" + err);
+		//throw err;
+		
+		json_responses = {"statusCode" : 405} ;
+		res.send(json_responses);
+			}
 		else 
 		{
 			
-			console.log(results);
+			console.log("Results in fetchorder"+results);
 			
 			if(results.statusCode == 200)
 
@@ -58,8 +62,6 @@ router.post('/fetchOrders',function(req,res,next)
 				console.log(json_responses);
 				res.send(json_responses);
 			
-
-
 			}
 									
 		}  

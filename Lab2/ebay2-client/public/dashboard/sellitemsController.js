@@ -60,6 +60,11 @@ dashboard.controller("sellitemsController", function($scope,$http)
 
 			
 								}
+							else if(data.statusCode==405){
+								
+								alert("Cannot Submit Item Details. Request Timed Out!");
+								}
+
 					
 							
 							
@@ -150,6 +155,11 @@ dashboard.controller("sellitemsController", function($scope,$http)
 
 			
 								}
+							else if(data.statusCode==405){
+								
+								alert("Cannot Submit Item Details. Request Timed Out!");
+								}
+
 					
 							
 							

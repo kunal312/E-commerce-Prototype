@@ -1,4 +1,3 @@
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var mq_client = require('../rpc/client');
@@ -22,7 +21,9 @@ router.post('/successLogin',function(req,res,next)
 			mq_client.make_request('lastlogin_queue',msg_payload, function(err,results){
 
 				if(err){
-					throw err;
+					json_responses = {"statusCode" : 405} ;
+					res.send(json_responses);
+				
 				}
 				else 
 				{

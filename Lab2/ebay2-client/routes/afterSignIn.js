@@ -1,5 +1,4 @@
 var ejs = require("ejs");
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var bcrypt = require('bcrypt-nodejs');
@@ -34,7 +33,10 @@ if((req.param("inputUsername")!== undefined && req.param("inputPassword")!== und
 			mq_client.make_request('login_queue',msg_payload, function(err,results){
 
 				if(err){
-					throw err;
+					//throw err;
+					console.log("Error in signin:"+err);
+					json_responses = {"statusCode" : 405} ;
+					res.send(json_responses);
 				}
 				else 
 				{

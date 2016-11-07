@@ -1,5 +1,4 @@
 var ejs = require("ejs");
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var logger = require('./winston');

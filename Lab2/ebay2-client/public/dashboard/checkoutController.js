@@ -47,6 +47,11 @@ dashboard.controller("checkoutController", function($scope,$http,$state,$statePa
 								
 
 							}
+						
+						else if(data.statusCode==405){
+							
+							alert("Cannot Make Payment. Request Timed Out!");
+						}
 
 
 						else {

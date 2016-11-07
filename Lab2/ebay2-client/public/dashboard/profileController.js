@@ -48,6 +48,10 @@ dashboard.controller("profileController", function(data,$scope,$http,$window,$st
 								
 
 							}
+							else if(data.statusCode==405){
+							
+							alert("Cannot Update Profile. Request Timed Out!");
+							}
 
 							else 
 								{

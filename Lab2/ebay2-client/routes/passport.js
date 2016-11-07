@@ -32,29 +32,34 @@ module.exports = function(passport) {
     	        		
     	        		if(err)
     	        			{
+    	        			console.log("Error in login:"+err);
     	        			done(err,null);
     	        			}
     	        			
-    	        		if (results.statusCode == 401) 
-    	        		{
-    	        				console.log("Invalid Login in passport.js");
-    	                         done(null, false);
-    	        		}  	
-    	        		
-    	        		
-    	        	else if(results.statusCode == 402){
+    	        		else{
     	        			
-    	        			console.log("Invalid Username");
-	                         done(null, false, { message: 'Invalid username' } );
-    	        		}
-    	        		else if(results.statusCode == 200)
-    	                
-    	        		{
-    	        		console.log("Login Successfull");
-    	        		console.log(username);
-	                	console.log(results);
-	                    done(null, username);
-    	        		}
+    	        			if (results.statusCode == 401) 
+        	        		{
+        	        				console.log("Invalid Login in passport.js");
+        	                         done(null, false);
+        	        		}  	
+        	        		
+        	        		
+        	        	else if(results.statusCode == 402){
+        	        			
+        	        			console.log("Invalid Username");
+    	                         done(null, false, { message: 'Invalid username' } );
+        	        		}
+        	        		else if(results.statusCode == 200)
+        	                
+        	        		{
+        	        		console.log("Login Successfull");
+        	        		console.log(username);
+    	                	console.log(results);
+    	                    done(null, username);
+        	        		}
+    	        		}			
+    	        		
     	        		
     	        		
     	                	

@@ -53,6 +53,10 @@ $scope.login = function()
 									$scope.error1 = true;
 									$scope.msg2 = "Oops!Looks like you need to Sign Up First";
 									}
+								else{
+								
+									alert("Cannot SignIn.Request Timed Out!!");
+								}
 							
 							
 							
@@ -98,6 +102,11 @@ $scope.login = function()
 
 						$scope.error2 = true;
 						$scope.msg = "Email,Password or First Name Cannot be blank";
+					}
+					
+					else if (data.statusCode == 405){
+						
+						alert("Cannot Register.Request Timed Out!!");
 					}
 						else {
 						

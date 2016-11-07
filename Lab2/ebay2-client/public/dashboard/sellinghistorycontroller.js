@@ -2,10 +2,18 @@ dashboard.controller("sellinghistorycontroller", function(data,$scope,$http,$win
 {
 
 
+	
+		if(data.statusCode==405){
+		
+		alert("Cannot Make Payment. Request Timed Out!");
+		}
 
+		else{
+			
+		
 		$scope.solditems = data.solditems;
 		console.log("orderrs" + $scope.solditems);
-
+		}
 		
 
-})
+});

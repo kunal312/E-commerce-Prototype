@@ -5,6 +5,11 @@ var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;
 
+var connection = require('../connectmongoose');
+
+
+var tempConn = connection.exportConnection();
+connection.sendBackConnection(tempConn);
 
 
 
@@ -31,6 +36,6 @@ var itemSchema = new Schema({
 
 
 
-var Item = mongoose.model('Item', itemSchema);
+var Item = tempConn.model('Item', itemSchema);
 
 exports.Item = Item;

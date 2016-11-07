@@ -1,0 +1,11 @@
+{"level":"debug","message":"Event:SignIn,User:kunal312@gmail.com","timestamp":"Sat Nov 05 2016 23:30:00 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:UpdateProfile,Updating Profile for User:undefined","timestamp":"Sat Nov 05 2016 23:43:19 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:UpdateProfile,Updating Profile for User:undefined","timestamp":"Sat Nov 05 2016 23:43:57 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:UpdateProfile,Updating Profile for User:undefined","timestamp":"Sat Nov 05 2016 23:46:38 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:ViewCart :Fetching Items for undefined","timestamp":"Sat Nov 05 2016 23:48:53 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:undefined","timestamp":"Sat Nov 05 2016 23:51:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:undefined","timestamp":"Sat Nov 05 2016 23:51:34 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:undefined","timestamp":"Sat Nov 05 2016 23:52:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:undefined","timestamp":"Sat Nov 05 2016 23:52:03 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment :Verifying payment for user:undefined","timestamp":"Sat Nov 05 2016 23:58:35 GMT-0700 (PDT)"}
+{"level":"debug","message":"Event:Payment : payment authorized for user:undefined","timestamp":"Sat Nov 05 2016 23:58:35 GMT-0700 (PDT)"}

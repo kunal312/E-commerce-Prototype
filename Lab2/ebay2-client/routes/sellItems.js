@@ -1,5 +1,4 @@
 var ejs = require("ejs");
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var logger = require('./winston');
@@ -47,7 +46,9 @@ router.post('/sellItems',function(req,res,next)
 				mq_client.make_request('sellFixedItems_queue',msg_payload, function(err,results){
 
 					if(err){
-						throw err;
+						console.log(err);
+						json_responses = {"statusCode" : 405} ;
+						res.send(json_responses);
 					}
 					else 
 					{

@@ -104,13 +104,20 @@ app.post('/logout' ,logout);
 app.post('/afterSignIn', function(req, res, next) {
 	  passport.authenticate('login', function(err, user, info) {
 		 console.log("********app.js************");
+		 console.log("Error in passport"+err);
 	    if(err) 
 	    
 	    {
-	      return next(err);
+	      //return next(err);
+	    	console.log("Error in passport1"+err);
+	    	var json_responses = {"statusCode" : 405} ;
+			res.send(json_responses);
+	      
 	    } 
 	   
-	    if(!user && !info) {
+	    else  
+	    	{
+	    	if(!user && !info) {
 	    	console.log(user);
 	    	console.log("Invalid Login");
 			var json_responses = {"statusCode" : 401 };
@@ -140,8 +147,8 @@ app.post('/afterSignIn', function(req, res, next) {
 				   	      
 				   	      
 				   });
-	    	}    
-
+	    	}   
+	    	}
 	   
 	  })(req, res, next);
 	});

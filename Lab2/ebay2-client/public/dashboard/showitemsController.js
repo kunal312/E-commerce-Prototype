@@ -3,11 +3,15 @@ dashboard.controller("showitemsController", function(data,$scope,$http,$window,$
 
 {
 
+		if(data.statusCode=="405")
+			{
+			alert("Request cannot be processed. Please try again after some time!!")
+			}
+	
+		else{
 		$scope.items = data.items;
-
-
 		console.log("ItemList:" +$scope.items);
-
+		}
 
 
 		$scope.addtoCart = function(itemname,itemdescription,itemprice,itemremqty,sellername,sellerlocation,itemid)
@@ -60,6 +64,11 @@ dashboard.controller("showitemsController", function(data,$scope,$http,$window,$
 
 			
 								}
+							else if(data.statusCode==405){
+								
+								alert("Cannot Add item to cart. Request Timed Out!");
+								}
+
 					
 							
 							

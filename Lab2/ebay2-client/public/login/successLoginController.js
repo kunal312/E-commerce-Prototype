@@ -1,8 +1,12 @@
 dashboard.controller("successLoginController", function(data,$scope,$http,$state)
 {
 
+	console.log(data);
 
-
+if(data.statusCode==405){
+	
+	alert("Request Timed Out for fetching the items. Please try again later!");
+}
 
 //$scope.useremail= $stateParams.useremail;
 

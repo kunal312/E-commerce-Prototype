@@ -1,5 +1,4 @@
 var ejs = require("ejs");
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var bcrypt = require('bcrypt-nodejs');
@@ -47,7 +46,9 @@ console.log("Routes:afterRegister");
 mq_client.make_request('registeruser_queue',msg_payload, function(err,results){
 
 		if(err){
-			throw err;
+			console.log(err);
+			json_responses = {"statusCode" : 405} ;
+			res.send(json_responses);
 		}
 		else 
 		{

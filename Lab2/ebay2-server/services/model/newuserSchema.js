@@ -6,6 +6,12 @@ var mongoose = require('mongoose');
 //var connection = mongoose.createConnection("mongodb://localhost:27017/ebaynew2");
 var Schema = mongoose.Schema;
 
+var connection = require('../connectmongoose');
+
+
+var tempConn = connection.exportConnection();
+connection.sendBackConnection(tempConn);
+
 
 
 
@@ -37,6 +43,6 @@ newUserSchema.methods.validatePassword = function(password)
 
 
 
-var User = mongoose.model('User', newUserSchema);
+var User = tempConn.model('User', newUserSchema);
 
 exports.User = User;

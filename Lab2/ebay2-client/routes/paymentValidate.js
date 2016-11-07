@@ -1,5 +1,4 @@
 var ejs = require("ejs");
-var mysql = require('./mysql');
 var express = require('express');
 var router = express.Router();
 var logger = require('./winston');
@@ -8,7 +7,7 @@ var mq_client = require('../rpc/client');
 router.post('/paymentValidate', function (req,res,next)
 {
 var json_responses = {};
-	if(req.session.username){
+	//if(req.session.username){
 logger.eventLogger.debug("Event:Payment :Verifying payment for user:" +req.session.username);
 var num = req.param("card");
 console.log(num);
@@ -29,7 +28,9 @@ var msg_payload = {
 mq_client.make_request('validatePayment_queue',msg_payload, function(err,results){
 
 	if(err){
-		throw err;
+		console.log(err);
+		json_responses = {"statusCode" : 405} ;
+		res.send(json_responses);
 	}
 	else 
 	{
@@ -69,6 +70,6 @@ if(results.statusCode == 200)
 
 
 	
-	}
+	//}
 });
 module.exports = router;

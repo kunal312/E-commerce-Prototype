@@ -53,7 +53,9 @@ router.post('/biditems' ,function(req,res,next)
 		mq_client.make_request('sellBidItems_queue',msg_payload, function(err,results){
 
 			if(err){
-				throw err;
+				console.log(err);
+				json_responses = {"statusCode" : 405} ;
+				res.send(json_responses);
 			}
 			else 
 			{
